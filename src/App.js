@@ -27,6 +27,7 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>{!data ? "write your name..." : data}</p>
+        <h1>YO Nice balls</h1>
         <input onChange={(e) => setName(e.target.value)} />
         <button onClick={() => send()}>Send</button>
       </header>
